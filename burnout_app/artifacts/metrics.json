@@ -1,0 +1,164 @@
+{
+  "decision_tree": {
+    "accuracy": 0.522,
+    "precision": 0.5334108574538279,
+    "recall": 0.522,
+    "f1_score": 0.5230480663930697,
+    "roc_auc": 0.6817354476942985,
+    "classification_report": {
+      "High": {
+        "precision": 0.6498893805309734,
+        "recall": 0.47056467761313575,
+        "f1-score": 0.5458768873403019,
+        "support": 2497.0
+      },
+      "Low": {
+        "precision": 0.5111111111111111,
+        "recall": 0.5198533903481979,
+        "f1-score": 0.5154451847365233,
+        "support": 3274.0
+      },
+      "Medium": {
+        "precision": 0.4819004524886878,
+        "recall": 0.5540316859777725,
+        "f1-score": 0.5154548454515455,
+        "support": 4229.0
+      },
+      "accuracy": 0.522,
+      "macro avg": {
+        "precision": 0.5476336480435907,
+        "recall": 0.5148165846463687,
+        "f1-score": 0.5255923058427903,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.5334108574538279,
+        "recall": 0.522,
+        "f1-score": 0.5230480663930697,
+        "support": 10000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1175,
+        285,
+        1037
+      ],
+      [
+        90,
+        1702,
+        1482
+      ],
+      [
+        543,
+        1343,
+        2343
+      ]
+    ]
+  },
+  "random_forest": {
+    "accuracy": 0.5276,
+    "precision": 0.5473487899680213,
+    "recall": 0.5276,
+    "f1_score": 0.5252964565268828,
+    "roc_auc": 0.6899748256506547,
+    "classification_report": {
+      "High": {
+        "precision": 0.6714456391875747,
+        "recall": 0.4501401682018422,
+        "f1-score": 0.5389594821385759,
+        "support": 2497.0
+      },
+      "Low": {
+        "precision": 0.5415569763068823,
+        "recall": 0.4398289554062309,
+        "f1-score": 0.48542052924321594,
+        "support": 3274.0
+      },
+      "Medium": {
+        "precision": 0.47856008470089995,
+        "recall": 0.6412863561125561,
+        "f1-score": 0.5481002425222312,
+        "support": 4229.0
+      },
+      "accuracy": 0.5276,
+      "macro avg": {
+        "precision": 0.5638542333984523,
+        "recall": 0.5104184932402097,
+        "f1-score": 0.5241600846346743,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.5473487899680213,
+        "recall": 0.5276,
+        "f1-score": 0.5252964565268828,
+        "support": 10000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1124,
+        182,
+        1191
+      ],
+      [
+        70,
+        1440,
+        1764
+      ],
+      [
+        480,
+        1037,
+        2712
+      ]
+    ],
+    "cross_val_accuracy_mean": 0.53232,
+    "cross_val_accuracy_std": 0.0027051062825700655
+  },
+  "best_dt_params": {
+    "criterion": "entropy",
+    "max_depth": 6,
+    "min_samples_leaf": 4,
+    "min_samples_split": 2
+  },
+  "best_rf_params": {
+    "max_depth": 10,
+    "min_samples_leaf": 1,
+    "min_samples_split": 5,
+    "n_estimators": 100
+  },
+  "comparison_table": [
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.522,
+      "Precision": 0.5334108574538279,
+      "Recall": 0.522,
+      "F1 Score": 0.5230480663930697
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.5276,
+      "Precision": 0.5473487899680213,
+      "Recall": 0.5276,
+      "F1 Score": 0.5252964565268828
+    }
+  ],
+  "class_names": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "dataset_shape": [
+    50000,
+    15
+  ],
+  "train_shape": [
+    40000,
+    14
+  ],
+  "test_shape": [
+    10000,
+    14
+  ],
+  "final_model": "Random Forest Classifier"
+}

@@ -1,0 +1,16 @@
+{
+  "Weekly_GenAI_Hours": 0.40353628630939353,
+  "Perceived_AI_Dependency": 0.16746878826734646,
+  "Traditional_Study_Hours": 0.06355313049811938,
+  "Pre_Semester_GPA": 0.06348432446627675,
+  "Year_of_Study": 0.057136145896758944,
+  "Post_Semester_GPA": 0.05666537522788327,
+  "Skill_Retention_Score": 0.05158704461864956,
+  "Anxiety_Level_During_Exams": 0.046422463874373356,
+  "Institutional_Policy": 0.021421689636605627,
+  "Major_Category": 0.01612969145735148,
+  "Primary_Use_Case": 0.01603979173157898,
+  "Tool_Diversity": 0.01576114272564793,
+  "Paid_Subscription": 0.011359796875474006,
+  "Prompt_Engineering_Skill": 0.009434328414540805
+}
